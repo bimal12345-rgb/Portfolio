@@ -57,8 +57,19 @@
 			    <header class="entry-header">
 
 			    	<a href="#" class="entry-category">design</a>
-			    	<h1 class="entry-title">how to design a perfect logo for your brand</h1>
-			    	<a href="#" class="entry-date">Posted on July 7, 2019</a>
+			    	<h1 class="entry-title">I am not him.</h1>
+			    	<a href="#" class="entry-date" id="today-date">Posted on </a>
+
+						<script>
+						var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+						var today = new Date();
+						var month = months[today.getMonth()];
+						var day = today.getDate().toString().padStart(2, '0');
+						var year = today.getFullYear();
+						var dateStr = month + ' ' + day + ', ' + year;
+						document.getElementById('today-date').textContent += dateStr;
+						</script>
+
 
 			    </header> <!-- /.entry-header -->
 
