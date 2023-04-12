@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Metas -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Bimal - portfolio</title>
+	<meta name="description" content="Bimal - portfolio">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="assets/css/themify-icons.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/colors.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+
+	<!-- Google Fonts -->
+	<link href="../external.html?link=https://fonts.googleapis.com/css?family=Montserrat:500,600%7CPoppins:300,400,500,600&amp;display=swap" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="icon" href="assets/img/favicon.png">
+</head>
+<body>
+
+	<!-- ========== Header ========== -->
+
+	<header class="main-header">
+
+		<div class="container">
+
+			<a href="index.html">
+				<img src="assets/img/logo1.svg" class="logo" alt="">
+			</a>
+
+			<a href="#" class="open-nav">
+				<i></i>
+			</a>
+
+			<div class="clearfix"></div>
+
+		</div> <!-- /.container -->
+
+	</header> <!-- /.main-header -->
+
+
+	<!-- ========== Main ========== -->
+
+	<main class="blog-post">
+		
+		<div class="container">
+
+			<article>
+
+			    <header class="entry-header">
+
+			    	<a href="#" class="entry-category">design</a>
+			    	<h1 class="entry-title">I am not him.</h1>
+			    	<a href="#" class="entry-date" id="today-date">Posted on </a>
+
+						<script>
+						var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+						var today = new Date();
+						var month = months[today.getMonth()];
+						var day = today.getDate().toString().padStart(2, '0');
+						var year = today.getFullYear();
+						var dateStr = month + ' ' + day + ', ' + year;
+						document.getElementById('today-date').textContent += dateStr;
+						</script>
+
+
+			    </header> <!-- /.entry-header -->
+
+			     <figure class="entry-thumbnail">
+			        <img src="assets/img/blog-post_01.jpg" class="img-cover" alt="">
+			    </figure>
+
+			    <div class="entry-content">
+			    	<p>Most people would never guess that he is an introvert guy who was very shy and never really talked to anyone. He always kept to himself and never really made any friends. He was content with just being by himself.
+						One day, he decided to go out and talk to people. He started by just saying hello to people and then he began to talk to them more. He found that he really enjoyed talking to people and he started to make friends.</p>
+			    	<p>IHe's always the life of the party, always cracking jokes and always eager to get out and about. But the truth is, he gets exhausted easily from being around people too much.
+						He prefers quieter, more intimate gatherings where he can really get to know people. That's not to say he doesn't enjoy a good party - he just doesn't like being the center of attention. He is a great listener and people often find themselves confiding in him.
+						He's always happy to lend a listening ear and offer sage advice.</p>
+			<!-- 		<figure class="post-img">
+						<img src="assets/img/blog-post_02.jpg" alt="" class="img-cover">
+					</figure>
+					<p>I’ve been doing some research this morning and we need to better run it up the flagpole performance review going forward, nor gain traction, pivot. Review deep dive and synergestic actionables, above suite, nor that's not on the roadmap. Waste of resources we need to socialize the comms with the wider stakeholder community nor world, but design thinking.</p>
+					<p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Your eye on the ball while a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+			    </div> -->	<!-- /.entry-content -->
+
+				<ul class="share-links">
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+				</ul>
+
+			</article> <!-- /article -->
+
+			<div class="comments">
+				
+				<h2 class="heading">comments</h2>
+
+				<div class="comment">
+					
+					<div class="avatar">
+						<img src="assets/img/team_01.jpg" alt="" class="img-cover">
+					</div>
+
+					<div class="content">
+						<h2 class="name">helen brown</h2>
+						<h3 class="publication-date">February 3, 2018 at 2.00pm</h3>
+						<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+						<a href="#" class="reply">reply</a>
+					</div>
+
+					<div class="clearfix"></div>
+
+				</div> <!-- /.comment -->
+
+				<div class="comment">
+					
+					<div class="avatar">
+						<img src="assets/img/team_03.jpg" alt="" class="img-cover">
+					</div>
+
+					<div class="content">
+						<h2 class="name">george wood</h2>
+						<h3 class="publication-date">February 3, 2018 at 2.00pm</h3>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<a href="#" class="reply">reply</a>
+					</div>
+
+					<div class="clearfix"></div>
+
+				</div> <!-- /.comment -->
+
+			</div> <!-- /.comments -->
+
+			<div class="leave-comment">
+				
+				<h2 class="heading">leave a comment</h2>
+
+				<form action="#" class="contact-form">
+					
+					<input  name="name" placeholder="Name *" type="text" required>
+					<input  name="email" placeholder="Email *" type="email" required>
+					<textarea name="message" required></textarea>
+					<input type="submit" value="submit">
+					<div class="clearfix"></div>
+
+				</form>
+
+			</div> <!-- /.leave-comment -->
+
+		</div> <!-- /.container -->
+
+	</main> <!-- /.blog-post -->
+
+	<footer class="footer-default footer-default-border">
+
+		<div class="container">
+
+			<p class="copyright"><i class="far fa-copyright"></i> अ भाइ मेरै साइट हो ! </p>
+
+			<ul class="follow-us-links">
+				<li><a href="https://twitter.com/Ghoseyyy"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="https://www.instagram.com/bee_mal_chhetrii/"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/bimal-chhetri-1604111bb/?fbclid=IwAR1bhdpaFr6ulQpw9b-LuoURcEC6F6Af5i1lx4vxMaX8xxC3o3EUHdmgcVQ"><i class="fab fa-linkedin-in"></i></a></li>
+				<li><a href="https://dribbble.com/bimal28"><i class="fab fa-dribbble"></i></a></li>
+				<li><a href="https://www.behance.net/bimalchhetry"><i class="fab fa-behance"></i></a></li>
+				<li><a href="https://www.pexels.com/@bimal-chhetry-162267621/"><i class="fas fa-camera"></i></a></li>
+			</ul> 
+
+			<div class="clearfix"></div>
+
+		</div> <!-- /.container -->
+
+	</footer> <!-- /.footer-default -->
+
+	<div class="aside-navigation-overlay">
+		
+		<div class="aside-navigation">
+			
+			<a href="#" class="close-nav"><i class="ti-close"></i></a>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">home</a></li>
+					<li><a href="about.html">about</a></li>
+					<li><a href="portfolio.html">portfolio</a></li>
+					<li><a href="blog-list.html">blog</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+			</nav>
+
+			<ul class="social-icons">
+				<li><a href="https://twitter.com/Ghoseyyy"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="https://www.instagram.com/bee_mal_chhetrii/"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/bimal-chhetri-1604111bb/?fbclid=IwAR1bhdpaFr6ulQpw9b-LuoURcEC6F6Af5i1lx4vxMaX8xxC3o3EUHdmgcVQ"><i class="fab fa-linkedin-in"></i></a></li>
+				<li><a href="https://dribbble.com/bimal28"><i class="fab fa-dribbble"></i></a></li>
+				<li><a href="https://www.behance.net/bimalchhetry"><i class="fab fa-behance"></i></a></li>
+				<li><a href="https://www.pexels.com/@bimal-chhetry-162267621/"><i class="fas fa-camera"></i></a></li>
+			</ul>
+	
+		</div> <!-- /.aside-navigation -->
+
+	</div> <!-- /.aside-navigation-overlay -->
+
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
