@@ -83,16 +83,18 @@
 			    	<p>IHe's always the life of the party, always cracking jokes and always eager to get out and about. But the truth is, he gets exhausted easily from being around people too much.
 						He prefers quieter, more intimate gatherings where he can really get to know people. That's not to say he doesn't enjoy a good party - he just doesn't like being the center of attention. He is a great listener and people often find themselves confiding in him.
 						He's always happy to lend a listening ear and offer sage advice.</p>
-			<!-- 		<figure class="post-img">
-						<img src="assets/img/blog-post_02.jpg" alt="" class="img-cover">
-					</figure>
-					<p>I’ve been doing some research this morning and we need to better run it up the flagpole performance review going forward, nor gain traction, pivot. Review deep dive and synergestic actionables, above suite, nor that's not on the roadmap. Waste of resources we need to socialize the comms with the wider stakeholder community nor world, but design thinking.</p>
-					<p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Your eye on the ball while a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-			    </div> -->	<!-- /.entry-content -->
+			<!-- /.entry-content -->
 
 				<ul class="share-links">
 					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" id="twitter-share-button"><i class="fab fa-twitter"></i></a></li>
+							<script>
+							const twitterButton = document.querySelector('#twitter-share-button');
+							const pageUrl = encodeURIComponent(window.location.href);
+							const pageTitle = encodeURIComponent(document.title);
+							const twitterUrl = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${pageTitle}`;
+							twitterButton.setAttribute('href', twitterUrl);
+							</script>
 					<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
 				</ul>
 
