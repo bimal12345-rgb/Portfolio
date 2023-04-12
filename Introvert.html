@@ -86,24 +86,24 @@
 			<!-- /.entry-content -->
 
 				<ul class="share-links">
-						<li><a href="#" id="twitter-share-button"><i class="fab fa-twitter"></i></a></li>
 						<li><a href="#" id="facebook-share-button"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#" id="twitter-share-button"><i class="fab fa-twitter"></i></a></li>
 						<li><a href="#" id="pinterest-share-button"><i class="fab fa-pinterest-p"></i></a></li>
 					  
 					  
 					  <!-- JavaScript code -->
 					  <script>
-						const twitterButton = document.querySelector('#twitter-share-button');
 						const facebookButton = document.querySelector('#facebook-share-button');
+						const twitterButton = document.querySelector('#twitter-share-button');
 						const pinterestButton = document.querySelector('#pinterest-share-button');
 						const pageUrl = encodeURIComponent(window.location.href);
 						const pageTitle = encodeURIComponent(document.title);
-						const twitterUrl = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${pageTitle}`;
 						const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}&t=${pageTitle}`;
+						const twitterUrl = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${pageTitle}`;
 						const pinterestUrl = `https://pinterest.com/pin/create/button/?url=${pageUrl}&media=&description=${pageTitle}`;
-					  
-						twitterButton.setAttribute('href', twitterUrl);
+					 
 						facebookButton.setAttribute('href', facebookUrl);
+						twitterButton.setAttribute('href', twitterUrl);
 						pinterestButton.setAttribute('href', pinterestUrl);
 					  </script>
 				</ul>
